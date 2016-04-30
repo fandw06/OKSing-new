@@ -221,7 +221,7 @@ public class OKSGUI{
 		miAbout.setMnemonic(KeyEvent.VK_A);
 		miAbout.addActionListener( e -> {
 			JOptionPane.showMessageDialog(null, 
-					"OK Sing v1.0\n"+ "Date: 02/03/2016\n"+ "Author: Dawei Fan",
+					"OK Sing v2.0\n"+ "Date: 04/30/2016\n"+ "Author: Dawei Fan",
 					"About",
 					JOptionPane.INFORMATION_MESSAGE);				
 		});
@@ -411,7 +411,7 @@ public class OKSGUI{
 			JPanel labelRow = new JPanel(new GridLayout(1, 3));
 			labelRow.setVisible(true);
 			labelRow.add(new JLabel("    Title"));
-			labelRow.add(new JLabel("Author"));
+			labelRow.add(new JLabel("Singer"));
 			labelRow.add(new JLabel("Upload Time"));
 			display.add(labelRow);
 			
